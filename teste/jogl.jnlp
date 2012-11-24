@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<jnlp href="teste/jogl.jnlp" codebase="../">
+  <information>
+    <title>Untitled</title>
+    <vendor>Vendor</vendor>
+    <homepage href="http://www.mycompany.com/"/>
+    <description>Untitled Presentation</description>
+    <description kind="short">Untitled.</description>
+    <offline-allowed/>
+  </information>
+
+  <resources>
+    <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+    <property name="sun.java2d.noddraw" value="true"/>
+    <jar href="wf-player/opengl1.jar" />
+<jar href="wf-player/startup8.jar" />
+<jar href="wf-player/core8.jar" />
+<jar href="wf-player/3D_Scene-5.05.jar" />
+<jar href="teste/classes.jar" />
+<jar href="wf-player/wflet.jar" />
+
+    <extension name="jogl-all-awt" href="http://download.java.net/media/jogl/builds/archive/jsr-231-webstart-current/jogl.jnlp" />
+  </resources>
+
+  <applet-desc
+      name="teste"
+      main-class="com.wirefusion.player.GLAppletPlayer" 
+      width=800
+      height=600
+  >
+  </applet-desc>
+</jnlp>
+
