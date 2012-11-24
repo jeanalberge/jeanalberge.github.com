@@ -46,7 +46,7 @@ if (opengl) {
 
 // Tag parameters
 width=800;
-height=600;
+height=800;
 name="teste";
 code="com.wirefusion.player.AppletPlayer";
 if (opengl) {
